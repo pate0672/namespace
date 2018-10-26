@@ -26,8 +26,9 @@ var PATE0672 = {
 
         newDiv.addEventListener("mouseout", function () {
 
-            newDiv.classList.toggle("highlight");
             newDiv.removeAttribute("style");
+            newDiv.classList.toggle("highlight");
+            newDiv.textContent="PATE0672";
 
         });
 
