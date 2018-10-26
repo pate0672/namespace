@@ -20,13 +20,13 @@ var PATE0672 = {
 
         newDiv.addEventListener("mouseover", function () {
 
-            newDiv.classList.toggle("hightlight");
+            newDiv.classList.toggle("highlight");
         });
 
 
         newDiv.addEventListener("mouseout", function () {
 
-            newDiv.classList.toggle("hightlight");
+            newDiv.classList.toggle("highlight");
             newDiv.removeAttribute("style");
 
         });
