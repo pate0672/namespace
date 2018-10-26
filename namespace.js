@@ -11,20 +11,20 @@ var PATE0672 = {
 
         newSolid.appendChild(newDiv);
 
-        newSolid.addEventListener("click", function () {
+        newDiv.addEventListener("click", function () {
             newDiv.style.borderColor = "lightgreen";
             newDiv.style.backgroundColor = "orange";
 
         });
 
 
-        newSolid.addEventListener("mouseover", function () {
+        newDiv.addEventListener("mouseover", function () {
 
             newDiv.classList.toggle("hightlight");
         });
 
 
-        newSolid.addEventListener("mouseout", function () {
+        newDiv.addEventListener("mouseout", function () {
 
             newDiv.classList.toggle("hightlight");
             newDiv.removeAttribute("style");
